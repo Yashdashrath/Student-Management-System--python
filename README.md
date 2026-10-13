@@ -142,5 +142,4 @@ The images in `screenshots/` come from running the real program with scripted ke
 | Department | Computer Science Engineering (CSE), Second Year, Division A |
 | College | PCET's Nutan Maharashtra Institute of Engineering and Technology, Pune |
 | Subject | SCPL |
-| Guide / Faculty | Yashraj Chavan |
-| Academic Year | 2026–27 |
+
