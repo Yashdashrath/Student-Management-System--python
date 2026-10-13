@@ -1,0 +1,38 @@
+test_add_student (test_student_management.TestAddStudent.test_add_student) ... ok
+test_cgpa_boundaries_accepted (test_student_management.TestAddStudent.test_cgpa_boundaries_accepted) ... ok
+test_empty_name_rejected (test_student_management.TestAddStudent.test_empty_name_rejected) ... ok
+test_invalid_roll_number (test_student_management.TestAddStudent.test_invalid_roll_number) ... ok
+test_name_with_spaces (test_student_management.TestAddStudent.test_name_with_spaces) ... ok
+test_reject_duplicate_roll (test_student_management.TestAddStudent.test_reject_duplicate_roll) ... ok
+test_reject_invalid_cgpa_on_add (test_student_management.TestAddStudent.test_reject_invalid_cgpa_on_add) ... ok
+test_average_cgpa (test_student_management.TestAverage.test_average_cgpa) ... ok
+test_average_empty_list (test_student_management.TestAverage.test_average_empty_list) ... ok
+test_delete_missing_student (test_student_management.TestDelete.test_delete_missing_student) ... ok
+test_delete_student (test_student_management.TestDelete.test_delete_student) ... ok
+test_empty_file_is_ok (test_student_management.TestFileHandling.test_empty_file_is_ok) ... ok
+test_malformed_and_duplicate_rows_are_skipped (test_student_management.TestFileHandling.test_malformed_and_duplicate_rows_are_skipped) ... ok
+test_missing_file_is_ok (test_student_management.TestFileHandling.test_missing_file_is_ok) ... ok
+test_name_with_spaces_and_comma_survive_reload (test_student_management.TestFileHandling.test_name_with_spaces_and_comma_survive_reload) ... ok
+test_save_and_reload (test_student_management.TestFileHandling.test_save_and_reload) ... ok
+test_save_failure_rolls_back (test_student_management.TestFileHandling.test_save_failure_rolls_back) ... ok
+test_table_format_has_all_columns (test_student_management.TestFileHandling.test_table_format_has_all_columns) ... ok
+test_average_with_no_students_via_menu (test_student_management.TestMenu.test_average_with_no_students_via_menu) ... ok
+test_display_with_no_students_via_menu (test_student_management.TestMenu.test_display_with_no_students_via_menu) ... ok
+test_end_of_input_exits_cleanly (test_student_management.TestMenu.test_end_of_input_exits_cleanly) ... ok
+test_exit_message (test_student_management.TestMenu.test_exit_message) ... ok
+test_full_workflow_through_menu (test_student_management.TestMenu.test_full_workflow_through_menu) ... ok
+test_invalid_menu_choices_do_not_crash (test_student_management.TestMenu.test_invalid_menu_choices_do_not_crash) ... ok
+test_non_numeric_roll_in_menu (test_student_management.TestMenu.test_non_numeric_roll_in_menu) ... ok
+test_records_persist_between_sessions (test_student_management.TestMenu.test_records_persist_between_sessions) ... ok
+test_search_existing (test_student_management.TestSearch.test_search_existing) ... ok
+test_search_missing (test_student_management.TestSearch.test_search_missing) ... ok
+test_invalid_cgpa_does_not_change_file (test_student_management.TestUpdate.test_invalid_cgpa_does_not_change_file) ... ok
+test_invalid_cgpa_does_not_change_record (test_student_management.TestUpdate.test_invalid_cgpa_does_not_change_record) ... ok
+test_update_details (test_student_management.TestUpdate.test_update_details) ... ok
+test_update_keeps_unchanged_fields (test_student_management.TestUpdate.test_update_keeps_unchanged_fields) ... ok
+test_update_missing_student (test_student_management.TestUpdate.test_update_missing_student) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.020s
+
+OK
